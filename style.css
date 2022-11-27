@@ -16,6 +16,10 @@ p{
     margin-left: 10px;
     margin-right: 10px;
 }
+.back{
+    top: 6px;
+    position: fixed;
+}
 .div{
     width: 1000px;
     border: 10px solid #EFE9E7;
