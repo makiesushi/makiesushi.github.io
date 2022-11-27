@@ -7,6 +7,11 @@
     font-weight: 600;
     color: #EFE9E7;
 }
+.easter-egg{
+    font-family: BeachSound;
+    text-decoration: none;
+    cursor: text;
+}
 .container{
     justify-content: center;
     align-items: center;
@@ -38,7 +43,7 @@ h3{
     margin-bottom: 2%;
 }
 body{
-    background-color: #52154E;
+    background: #52154E center repeat;
     overflow: hidden;
 }
 img{

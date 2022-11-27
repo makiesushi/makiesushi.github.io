@@ -5,6 +5,15 @@
             navigator.clipboard.writeText(mail);
             alert("my e-mail has been copied to your clipboard!");
         }
+        function easterEgg(){
+            document.body.style.background = "#52154E center repeat url('egg.gif')"; 
+            var all = document.getElementsByTagName("*");
+            for (var i=0, max=all.length; i < max; i++) {
+                all[i].style.color = "black";
+                all[i].style.borderColor = "black";
+            }
+            return false; 
+        }
     </script>
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +24,7 @@
         <title>makisushi</title>
     </head>
     <body>
-        <h1>makisushi</h1>
+        <h1>maki<a href="" class="easter-egg" onclick="return easterEgg();">sushi</a></h1>
         <div class="container">
             <div class="div">
                 <h3><u><i>about me</i></u></h3>
