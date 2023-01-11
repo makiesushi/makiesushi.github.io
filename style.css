@@ -48,7 +48,7 @@ h3{
 }
 body{
     background: #52154E center repeat;
-    overflow: hidden;
+    overflow: auto;
 }
 img{
     display: inline;
